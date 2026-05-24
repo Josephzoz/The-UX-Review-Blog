@@ -1,0 +1,564 @@
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 95%;
+  }
+  h1 {
+    font-size: 60px;
+    font-weight: 800;
+  }
+
+  #navbar .bar .anchors a {
+    display: none;
+  }
+
+  #navbar .bar .anchors img {
+    display: none;
+  }
+
+  #home .lefthome .buttons {
+    gap: 20px;
+  }
+  #home .lefthome .buttons .button1 {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #home .lefthome .buttons .button2 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  #articles .secondsection .leftsection .article .info .bywho,
+  #articles .secondsection .leftsection .article .info .calender,
+  #articles .secondsection .leftsection .article .info .time,
+  #articles .secondsection .leftsection .article .info .love {
+    width: 50%;
+  }
+
+  #articles .rightsection .trends h4 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #articles .rightsection .states {
+    font-size: 14px;
+  }
+
+  #authors .persons {
+    justify-content: space-between;
+    gap: 30px;
+  }
+
+  #authors .persons .person {
+    padding: 30px 50px;
+  }
+
+  #authors .persons .one,
+  #authors .persons .two,
+  #authors .persons .three {
+    width: 48%;
+  }
+
+  #community .under-title::after {
+    width: 14%;
+    left: 43%;
+  }
+
+  #footer .copyright {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #footer .copyright .privacy {
+    width: 100%;
+  }
+
+  #footer .copyright .privacy ul {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 70px;
+    font-weight: 800;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  #home .lefthome {
+    width: 100%;
+  }
+
+  #home .righthome {
+    width: 100%;
+  }
+
+  #home .righthome .image {
+    text-align: center;
+  }
+
+  #home .righthome .image img {
+    width: 90%;
+    transform: rotate(0deg);
+    margin-bottom: 50px;
+  }
+
+  #home .righthome .image:hover img {
+    transform: translate(-5px, -5px);
+  }
+
+  #home .righthome .image span {
+    top: -5%;
+    right: 3%;
+  }
+
+  #articles .secondsection .leftsection {
+    width: 100%;
+  }
+
+  #articles .secondsection .leftsection .article {
+    flex-direction: column;
+  }
+
+  #articles .secondsection .leftsection .article .image .redcolor,
+  #articles .secondsection .leftsection .article .image .bluecolor,
+  #articles .secondsection .leftsection .article .image .violetcolor {
+    font-size: 12px;
+  }
+
+  #articles .secondsection .leftsection .article .content {
+    width: 100%;
+  }
+
+  #articles .secondsection .leftsection .article .content span {
+    font-size: 12px;
+  }
+
+  #articles .secondsection .leftsection .article .content p {
+    font-size: 19px;
+  }
+
+  #articles .secondsection .leftsection .article .info .bywho,
+  #articles .secondsection .leftsection .article .info .calender,
+  #articles .secondsection .leftsection .article .info .time,
+  #articles .secondsection .leftsection .article .info .love {
+    gap: 8px;
+  }
+
+  #articles .secondsection .rightsection {
+    width: 100%;
+  }
+
+  #authors h2 {
+    padding-top: 80px;
+  }
+
+  #authors .under-title::after {
+    width: 18%;
+    left: 41%;
+    height: 8px;
+  }
+
+  #authors .persons {
+    justify-content: center;
+  }
+
+  #authors .persons .person {
+    width: 95%;
+  }
+
+  #authors .persons .one span,
+  #authors .persons .two span,
+  #authors .persons .three span {
+    top: 7%;
+    right: 4%;
+  }
+
+  #authors .persons .person h3 {
+    font-size: 28px;
+    font-weight: 900;
+  }
+
+  #authors .persons .person .gray-color {
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  #authors .persons .person p {
+    font-size: 17px;
+    font-weight: 200;
+  }
+
+  #community .left-community {
+    width: 95%;
+    justify-content: center;
+  }
+
+  #community .left-community h3 {
+    font-size: 30px;
+  }
+
+  #community .under-title::after {
+    width: 18%;
+    left: 41%;
+  }
+
+  #community .left-community .content-box {
+    padding: 20px;
+  }
+
+  #community .left-community .feature .text span {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  #community .right-community {
+    width: 95%;
+    justify-content: center;
+  }
+
+  #community .right-community h4 {
+    font-size: 28px;
+  }
+
+  #footer .lastsection {
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  #footer .left-footer .title img {
+    width: 40px;
+  }
+
+  #footer .left-footer {
+    width: 95%;
+  }
+
+  #footer .middle-footer {
+    width: 20%;
+  }
+
+  #footer .right-footer {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 55px;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 35px;
+  }
+
+  #home .righthome .image span {
+    top: -5%;
+    right: 4%;
+  }
+
+  #articles .secondsection .leftsection .article .image .redcolor,
+  #articles .secondsection .leftsection .article .image .bluecolor,
+  #articles .secondsection .leftsection .article .image .violetcolor {
+    font-size: 11px;
+  }
+
+  #articles .secondsection .leftsection .article .content span {
+    font-size: 10px;
+    font-weight: 700;
+  }
+
+  #articles .secondsection .leftsection .article .content p {
+    font-size: 17px;
+  }
+
+  #articles .secondsection .leftsection .article .content h3 {
+    font-size: 20px;
+  }
+
+  #articles .secondsection .leftsection .article .info .bywho,
+  #articles .secondsection .leftsection .article .info .calender,
+  #articles .secondsection .leftsection .article .info .time,
+  #articles .secondsection .leftsection .article .info .love {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  #authors h2 {
+    font-size: 45px;
+  }
+
+  #authors .under-title {
+    font-size: 20px;
+  }
+
+  #authors .persons .one span,
+  #authors .persons .two span,
+  #authors .persons .three span {
+    font-size: 12px;
+  }
+
+  #community .under-title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  #community .left-community {
+    margin-top: 50px;
+  }
+
+  #community .left-community h3 {
+    /* font-size: 26px; */
+    font-size: 30px;
+  }
+
+  #community .left-community .content-box {
+    padding: 15px;
+  }
+
+  #community .left-community .content-box p {
+    font-size: 19px;
+    font-weight: 600;
+  }
+
+  #community .right-community p {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  #community .right-community .rebel .rebel-img img {
+    width: 40px;
+  }
+
+  #community .right-community .rebel .info .rebel-info .rebel-name {
+    font-size: 17px;
+  }
+
+  #community .right-community .rebel .info .rebel-info .rebel-position {
+    font-size: 14px;
+  }
+
+  #footer .left-footer {
+    width: 95%;
+  }
+
+  #footer .middle-footer {
+    width: 95%;
+  }
+
+  #footer .right-footer {
+    width: 95%;
+  }
+
+  #footer h3 {
+    font-size: 18px;
+  }
+
+  #footer p {
+    font-size: 16px;
+  }
+
+  #footer .middle-footer .categorie ul a {
+    font-size: 15px;
+  }
+
+  #footer .copyright p {
+    font-size: 15px;
+  }
+
+  #footer .copyright .privacy ul a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  #navbar .bar .title {
+    font-size: 18px;
+  }
+
+  #navbar .bar .subscription a {
+    font-size: 10px;
+  }
+
+  #home {
+    padding-top: 120px;
+  }
+
+  #home .lefthome .title {
+    font-size: 12px;
+  }
+
+  #home .lefthome p {
+    font-size: 22px;
+  }
+  #home .righthome .image img {
+    height: 300px;
+  }
+
+  #articles .secondsection .leftsection .title span {
+    display: none;
+  }
+
+  #articles .secondsection .leftsection .article .content .info {
+    gap: 7px;
+  }
+
+  #articles .secondsection .leftsection .article .info .bywho,
+  #articles .secondsection .leftsection .article .info .calender,
+  #articles .secondsection .leftsection .article .info .time,
+  #articles .secondsection .leftsection .article .info .love {
+    width: 100%;
+  }
+
+  #articles .rightsection .trends h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  #articles .rightsection .states {
+    font-size: 12px;
+  }
+
+  #articles .rightsection .bottom .categories .color1,
+  #articles .rightsection .bottom .categories .color2,
+  #articles .rightsection .bottom .categories .color3,
+  #articles .rightsection .bottom .categories .color4,
+  #articles .rightsection .bottom .categories .color5 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  #authors h2 {
+    font-size: 32px;
+  }
+
+  #authors .under-title {
+    font-size: 16px;
+  }
+
+  #authors .under-title::after {
+    width: 30%;
+    left: 35%;
+    height: 7px;
+  }
+
+  #authors .persons .person p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+
+  #authors .persons .person {
+    padding: 20px;
+  }
+
+  #authors .persons .person h3 {
+    font-size: 22px;
+    font-weight: 900;
+  }
+
+  #authors .persons .person .gray-color {
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  #authors .persons .person img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #authors .persons .one span,
+  #authors .persons .two span,
+  #authors .persons .three span {
+    font-size: 10px;
+  }
+
+  #community .under-title {
+    font-size: 16px;
+  }
+
+  #community .under-title::after {
+    width: 28%;
+    height: 7px;
+    left: 36%;
+  }
+
+  #community .left-community h3 {
+    font-size: 23px;
+  }
+
+  #community .left-community .content-box p {
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  #community .left-community .feature .text span {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  #community .left-community button {
+    font-size: 18px;
+  }
+
+  #community .right-community {
+    margin-top: 50px;
+  }
+
+  #community .right-community h4 {
+    font-size: 20px;
+  }
+
+  #community .right-community p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  #community .right-community .rebel .info .rebel-info .rebel-name {
+    font-size: 14px;
+  }
+
+  #community .right-community .rebel .info .rebel-info .rebel-position {
+    font-size: 12px;
+  }
+
+  #footer h3 {
+    font-size: 20px;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+
+  #footer .lastsection {
+    justify-content: center;
+  }
+
+  #footer .middle-footer .categorie ul a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  #footer .copyright p {
+    font-size: 14px;
+  }
+
+  #footer .copyright .privacy ul a {
+    font-size: 12px;
+  }
+}
